@@ -14,7 +14,7 @@ jobs:
         run: |
           pip install mythril
       - name: Run Mythril analysis
-        run: myth analyze contracts/*.sol  --out json > results.json
+        run: myth analyze contracts/*.sol -t 3  --out json > results.json
         
       - name: Upload Mythril report
         uses: actions/upload-artifact@v2
