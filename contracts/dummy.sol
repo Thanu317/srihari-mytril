@@ -6,7 +6,7 @@ pragma solidity ^0.8.19;
 contract example {
         // Process state
 //New text added
-//ok
+//ok 
 //new line test for notes
         enum State {
                 Running,
